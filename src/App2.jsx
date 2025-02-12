@@ -35,3 +35,32 @@ export default App2
 // header__link--small
 
 // Tag vazia em React se chama Fragment ou Fragmento
+
+// {items === 5 ? (
+//   <>
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//   </>
+// ) : (
+//   <>
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//     <SingleItem />
+//   </>
+// )}
+
+// {Array(items)
+//   .fill()
+//   .map((currentValue, index) => (
+//     <SingleItem key={`${title}-${index}`} />
+//   ))}
